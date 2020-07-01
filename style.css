@@ -1,0 +1,121 @@
+*{outline: 0;padding: 0;margin: 0;}
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+h4{
+    color: gray;
+    margin-bottom: 40px;
+}
+p{margin-top: 20px;
+margin-bottom: 40px;
+font-size: 20px;
+}
+
+.toppart-area{
+    background-image: url(/img/header-bg.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    padding: 3%;
+    margin: 2%;
+    text-align: justify;
+   
+}
+.half-width img{
+    width: 100%;
+}
+.word-highlight{
+    color: #ED4B72;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg,#f53461, #ec8099);
+    border-image-slice: 1;
+}
+
+.biography-area{
+    background-image: url(/img/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.work-area{
+    height: 800px;
+    background-image: url(/img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.work-area h1{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.work-area img{ 
+    width: 30%;
+    float: left;
+    padding: 5px;
+   
+}
+.imgae-center {
+    margin-left: 100px;
+}
+
+.client-area{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    height: 800px;
+}
+.client-area h1{
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+.box-massage {
+    margin-left: 30%;
+    width: 40%;
+    height: 120px;
+    margin-bottom: 40px;
+}
+.box-massage p{
+    margin: 0;
+    padding: 5px;
+}
+.box-email{
+    margin-left: 30%;
+    width: 40%;
+    height: 120px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#f53461, #ec8099);
+    border-image-slice: 1;
+    padding-top: 30px;
+    font-size: 25px;
+    color: white;
+    
+}
+.box-email p{
+    padding: 10px;
+    margin: 0;
+
+}
+.box-email a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+
+}
+footer{text-align: center;}
